@@ -1,0 +1,16 @@
+{
+  "name": "@worksai/worksai-linkengine",
+  "version": "1.0.0",
+  "description": "MIT-licensed PHP URL shortener, UTM campaign builder, and WordPress bridge with link-rot detection.",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.mjs",
+  "scripts": {
+    "test": "node --test tests/product.test.mjs",
+    "lint": "node --check src/index.mjs && node --check tests/product.test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DevinAiUk/worksai-linkengine.git"
+  }
+}
