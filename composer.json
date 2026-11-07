@@ -1,0 +1,14 @@
+{
+  "name": "worksai/worksai-linkengine",
+  "description": "MIT-licensed PHP URL shortener, UTM campaign builder, and WordPress bridge with link-rot detection.",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "WorksAi\\WorksAiLinkEngine\\": "src/"
+    }
+  }
+}
